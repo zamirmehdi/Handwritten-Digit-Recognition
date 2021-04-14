@@ -8,15 +8,23 @@ def show_image(img):
     plt.imshow(image, 'gray')
 
 
+# Step 1:
+
+# Layer size initializations:
+first_size = 784
+hidden_1_size = 16
+hidden_2_size = 16
+last_size = 10
+
 # Reading The Train Set
 train_images_file = open('train-images.idx3-ubyte', 'rb')
 train_images_file.seek(4)
 num_of_train_images = int.from_bytes(train_images_file.read(4), 'big')
 train_images_file.seek(16)
-#
+
 train_labels_file = open('train-labels.idx1-ubyte', 'rb')
 train_labels_file.seek(8)
-#
+
 train_set = []
 for n in range(num_of_train_images):
     image = np.zeros((784, 1))
@@ -52,7 +60,8 @@ for n in range(num_of_test_images):
     test_set.append((image, label))
 
 # Plotting an image
-# show_image(train_set[1][0])
+# print(train_set[423][1])
+# show_image(train_set[423][0])
 # plt.show()
 
 
