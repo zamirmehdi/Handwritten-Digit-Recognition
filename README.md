@@ -711,7 +711,7 @@ Test different architectures:
 
 ## ℹ️ Project Information
 
-**Author:** Amirmehdi Zarrinnezhad
+**Author:** Amirmehdi Zarrinnezhad  
 **Course:** Computational Intelligence  
 **University:** Amirkabir University of Technology (Tehran Polytechnic) - Spring 2021  
 **GitHub Link:** [Handwritten-Digit-Recognition](https://github.com/zamirmehdi/Handwritten-Digit-Recognition)
